@@ -1,6 +1,6 @@
 # M365 Compromise Response Console
 
-A self-contained, cross-platform PowerShell tool with a built-in web GUI for rapid investigation and response to compromised Microsoft 365 accounts — a local SOC console that runs entirely on your machine.
+A self-contained, cross-platform PowerShell tool with a built-in web GUI for rapid investigation and response to compromised Microsoft 365 accounts, a local SOC console that runs entirely on your machine.
 
 ## Disclaimer
 
@@ -14,7 +14,7 @@ I place great value on genuine, maintainable, and production-ready code. Every c
 
 ## Overview
 
-This tool solves a common challenge during a Microsoft 365 account compromise: getting a complete, correlated picture of what happened and being able to respond — **fast**, from a single pane of glass, without installing anything.
+This tool solves a common challenge during a Microsoft 365 account compromise: getting a complete, correlated picture of what happened and being able to respond  **fast**, from a single pane of glass, without installing anything.
 
 It runs a small local web server (built-in .NET `HttpListener`) and serves a modern SOC web GUI in your browser. You sign in with client credentials directly in the GUI; the secret stays server-side in RAM and is cleared on exit.
 
